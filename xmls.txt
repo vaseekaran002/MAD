@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="2000"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        />
+</set>
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="2000"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        />
+</set>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:fromXScale="1"
+        android:fromYScale="1"
+        android:toXScale="2"
+        android:toYScale="2"
+        android:pivotY="50%"
+        android:pivotX="50%"
+        android:duration="2000"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"/>
+</set>
+
+<resources>
+    <string name="app_name">Database</string>
+    <string-array name="departments">
+        <item>CSE</item>
+        <item>IT</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+        <item>ECE</item>
+
+    </string-array>
+</resources>
